@@ -9,8 +9,8 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const app = express();
 const mongoose = require("mongoose");
-const productRoute = require("./server/routes/productRoute");
-const errorMiddleware = require("./server/middleware/middleware");
+const productRoute = require("../server/routes/productRoute");
+const errorMiddleware = require("../server/middleware/middleware");
 app.use(express.json());
 // log requests
 app.use(errorMiddleware);
@@ -49,3 +49,5 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`your app is running on local host localhost${PORT}`);
 });
+
+module.exports = app;
