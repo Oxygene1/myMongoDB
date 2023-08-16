@@ -5,8 +5,11 @@
   "main": "index.js",
   "author": "Ibrahim Abdulganiyu",
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "axios": "^1.4.0",
