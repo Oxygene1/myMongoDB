@@ -1,0 +1,21 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "a dummy backend project based on express and mongodb",
+  "main": "index.js",
+  "author": "Ibrahim Abdulganiyu",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
