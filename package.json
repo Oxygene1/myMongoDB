@@ -1,6 +1,6 @@
 {
   "name": "mongo",
-  "version": "1.0.0",
+  "version": "2",
   "description": "a dummy backend project based on express and mongodb",
   "main": "index.js",
   "author": "Ibrahim Abdulganiyu",
