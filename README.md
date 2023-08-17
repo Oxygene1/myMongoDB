@@ -45,4 +45,4 @@ put/ patch any of these values
 }
 
 
-to build you backend applications, reach me here:: https://abdulganiyu.vercel.app or send me a mail abdulganiyutechng@gmail.com
+to build your backend applications, reach me here:: https://abdulganiyu.vercel.app or send me a mail abdulganiyutechng@gmail.com
