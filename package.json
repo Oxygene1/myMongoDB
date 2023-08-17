@@ -2,11 +2,11 @@
   "name": "mongo",
   "version": "2",
   "description": "a dummy backend project based on express and mongodb",
-  "main": "api/index.js",
+  "main": "index.js",
   "author": "Ibrahim Abdulganiyu",
   "license": "MIT",
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "nodemon index.js"

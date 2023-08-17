@@ -9,8 +9,8 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const app = express();
 const mongoose = require("mongoose");
-const productRoute = require("../server/routes/productRoute");
-const errorMiddleware = require("../server/middleware/middleware");
+const productRoute = require("./server/routes/productRoute");
+const errorMiddleware = require("./server/middleware/middleware");
 app.use(express.json());
 // log requests
 app.use(errorMiddleware);
@@ -35,14 +35,15 @@ mongoose
     console.log(err);
   });
 // load assets
-app.use("/css", express.static(path.resolve(__dirname, "assets/css")));
-app.use("/images", express.static(path.resolve(__dirname, "assets/images")));
-app.use("/js", express.static(path.resolve(__dirname, "assets/js")));
+// app.use("/css", express.static(path.resolve(__dirname, "assets/css")));
+// app.use("/images", express.static(path.resolve(__dirname, "assets/images")));
+// app.use("/js", express.static(path.resolve(__dirname, "assets/js")));
 
 // link to env
 
 app.get("/", (req, res) => {
   res.render("index.ejs");
+  // res.send("express app working");
 });
 // post req to /product
 
